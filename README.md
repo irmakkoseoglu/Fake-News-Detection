@@ -145,7 +145,6 @@ def predict_news(title, text):
 |-------|----------|-----------|--------|----------|
 | Logistic Regression | 98.5% | 98.6% | 98.4% | 98.5% |
 | Random Forest | 99.1% | 99.2% | 99.0% | 99.1% |
-| SVM | 98.7% | 98.8% | 98.6% | 98.7% |
 | **MLP (Best)** | **99.3%** | **99.4%** | **99.2%** | **99.3%** |
 
 *Note: Metrics are from test set evaluation with 80-20 train-test split*
@@ -162,17 +161,12 @@ def predict_news(title, text):
 fake-news-detection/
 │
 ├── data/
-│   ├── raw/                    # Original dataset
-│   └── processed/              # Processed data
+│   ├── gitkeep/                    # Original dataset link
+│             
 │
 ├── notebooks/
 │   └── fake_news_detection.ipynb  # Main analysis notebook
 │
-├── src/
-│   ├── preprocessing.py        # Data preprocessing functions
-│   ├── feature_engineering.py  # Feature extraction
-│   ├── model_training.py       # Model training scripts
-│   └── prediction.py           # Prediction utilities
 │
 ├── models/
 │   ├── best_mlp_model.pkl     # Saved MLP model
@@ -180,9 +174,6 @@ fake-news-detection/
 │   ├── vectorizer_text.pkl    # Text vectorizer
 │   └── scaler.pkl             # Feature scaler
 │
-├── images/
-│   ├── wordcloud_fake.png     # Visualizations
-│   └── wordcloud_real.png
 │
 ├── docs/
 │   └── methodology.md         # Detailed methodology
