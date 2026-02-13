@@ -77,11 +77,6 @@ This document provides a detailed explanation of the methodology used in the Fak
    - Handles non-linear relationships
    - Feature importance analysis
 
-3. **Support Vector Machine (SVM)**
-   - Linear kernel
-   - Effective in high-dimensional spaces
-   - Good generalization
-
 4. **Multi-Layer Perceptron (MLP)**
    - Neural network architecture
    - Hidden layers: (100, 50)
@@ -128,7 +123,6 @@ This document provides a detailed explanation of the methodology used in the Fak
 |-------|----------|-----------|--------|----------|
 | Logistic Regression | 98.5% | 98.6% | 98.4% | 98.5% |
 | Random Forest | 99.1% | 99.2% | 99.0% | 99.1% |
-| SVM | 98.7% | 98.8% | 98.6% | 98.7% |
 | **MLP** | **99.3%** | **99.4%** | **99.2%** | **99.3%** |
 
 ## 8. Model Interpretation
