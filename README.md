@@ -168,11 +168,6 @@ fake-news-detection/
 │   └── fake_news_detection.ipynb  # Main analysis notebook
 │
 │
-├── models/
-│   ├── best_mlp_model.pkl     # Saved MLP model
-│   ├── vectorizer_title.pkl   # Title vectorizer
-│   ├── vectorizer_text.pkl    # Text vectorizer
-│   └── scaler.pkl             # Feature scaler
 │
 │
 ├── docs/
